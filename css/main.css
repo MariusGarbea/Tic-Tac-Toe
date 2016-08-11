@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Courgette Regular'), local('Courgette-Regular'), url(https://fonts.gstatic.com/s/courgette/v4/BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+  background-color: #2E2E2E;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.text {
+  color: #F78181;
+  font-size: 50px;
+  margin-top: 5vh;
+}
+
+.col {
+  background-color: #9A9999;
+  height: 150px;
+  width: 150px;
+  margin: 0 2px 0 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .col {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 330px) {
+  .col {
+    width: 80px;
+    height: 80px;
+  }
+}
